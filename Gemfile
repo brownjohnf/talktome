@@ -8,6 +8,7 @@ gem 'cancan'
 gem 'thin'
 gem 'bootstrap-will_paginate'
 gem 'gotcha', :git => 'git://github.com/brownjohnf/gotcha.git'
+gem 'paper_trail'
 
 # test on sqlite.
 group :test do
