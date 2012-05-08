@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%p
+  %b Language:
+  = @word.language_id
+%p
+  %b Part of speech:
+  = @word.part_of_speech_id
+%p
+  %b Index:
+  = @word.index
+%p
+  %b Headword:
+  = @word.headword
+%p
+  %b Singular:
+  = @word.singular
+%p
+  %b Plural:
+  = @word.plural
+
+= link_to 'Edit', edit_word_path(@word)
+\|
+= link_to 'Back', words_path

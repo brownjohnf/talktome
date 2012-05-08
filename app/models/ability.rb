@@ -22,7 +22,7 @@ class Ability
     if user.role? :admin
       can :manage, :all
     elsif user.role? :user
-      can :create, :all
+      can :read, :all
       if user.role? :moderator
         can [ :create, :update ], :all
       end

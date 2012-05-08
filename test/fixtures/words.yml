@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  language_id: 1
+  part_of_speech_id: 1
+  index: MyString
+  headword: MyString
+  singular: MyString
+  plural: MyString
+
+two:
+  language_id: 1
+  part_of_speech_id: 1
+  index: MyString
+  headword: MyString
+  singular: MyString
+  plural: MyString
